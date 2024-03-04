@@ -1,0 +1,30 @@
+#app {
+  display: flex;
+  gap: 150px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 100% !important;
+  margin-top: 20px !important;
+}
+h3 {
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+.carta {
+  width: 150px;
+  height: 200px;
+
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: #e600a9;
+  background-image: url('https://www.transparenttextures.com/patterns/black-scales.png');
+}
+.carta:hover {
+  transform: scale(1.1);
+}
